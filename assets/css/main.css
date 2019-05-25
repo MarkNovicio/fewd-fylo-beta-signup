@@ -1,20 +1,54 @@
-#left-panel {
-    background-image:
-        radial-gradient(darkblue,
-            blue);
-    height: 500px;
-    margin-right: 40px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.description {
+    padding: 20px 0;
+    color: rgb(158, 162, 165);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#left-panel {
+    background: linear-gradient(to top right,
+            #6560B1, #1a1569);
+    width: 45%;
+    height: 100vh; /*fills up the entire screen*/
+}
+
+
+#right-panel {
+    width: 55%;
+}
+
+/*header and nav styles*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+/*
 #hero-image {
     height: 300px;
     width: 350px;
 }
 
 #fylo-image {
-    height: 30px;
-    width: 80px;
-    padding-right: 25%;
+    height: 25px;
+    width: 90px;
+    padding-right: 10%;
 }
 
 #social-media {
@@ -29,6 +63,7 @@
     padding: 0 5px;
 }
 
+/*
 #left-panel,
 #right-panel {
     display: inline-block;
@@ -43,12 +78,6 @@ h1 {
 }
 
 
-.description {
-    padding: 20px 0;
-    color: rgb(158, 162, 165);
-    font-weight: bold;
-    font-size: 12px;
-}
 
 #signup-title {
     display: block;
@@ -80,9 +109,11 @@ form {
 footer {
     text-align: right;
 }
-
+*/
 #privacy-text {
     text-decoration: none;
     font-size: 10px;
     text-align: right;
 }
+
+*/
