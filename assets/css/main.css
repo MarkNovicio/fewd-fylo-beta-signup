@@ -12,10 +12,13 @@ body {
 
 h1 {
     font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
 }
 
 .description {
-    padding: 20px 0;
+    padding: 30px 0;
     color: rgb(158, 162, 165);
     font-weight: bold;
     font-size: 12px;
@@ -26,11 +29,20 @@ h1 {
             #6560B1, #1a1569);
     width: 45%;
     height: 100vh; /*fills up the entire screen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 #right-panel {
     width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding:4rem;  
+
 }
 
 /*header and nav styles*/
@@ -39,6 +51,34 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+ion-icon {
+    margin: 10px;
+}
+
+/* Form Styles*/
+label {
+    display: inline-block; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+input#signup-box {
+    height: 3rem;
+    width: 19rem;
+}
+input#submit-button {
+    height: 3rem;
+    width: 7rem;
+    margin-left: 1rem;
+    background-color: hsl(163, 93%, 43%);
+    color: #fff;
+}
+#form-submit {
+    display: flex;
+}
+
+
 /*
 #hero-image {
     height: 300px;
